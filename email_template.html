@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+        .header {
+            padding: 20px;
+            text-align: center;
+            background-color: #4A90E2;
+            color: white;
+        }
+        .logo {
+            max-width: 150px;
+            height: auto;
+        }
+        .content {
+            padding: 30px;
+        }
+        .hero-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #FF6B6B;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .columns {
+            display: table;
+            width: 100%;
+        }
+        .column {
+            display: table-cell;
+            width: 50%;
+            padding: 10px;
+            vertical-align: top;
+        }
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #333333;
+            color: white;
+            font-size: 12px;
+        }
+        .social {
+            margin: 15px 0;
+        }
+        .social-icon {
+            margin: 0 5px;
+            text-decoration: none;
+            color: white;
+        }
+        @media screen and (max-width: 480px) {
+            .column {
+                display: block;
+                width: 100%;
+                padding: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- En-tête -->
+        <div class="header">
+            <img src="/api/placeholder/150/50" alt="Logo de l'entreprise" class="logo">
+            <h1>Newsletter - Mai 2025</h1>
+        </div>
+
+        <!-- Contenu principal -->
+        <div class="content">
+            <!-- Section héro -->
+            <div class="section">
+                <img src="/api/placeholder/540/300" alt="Image principale" class="hero-image">
+                <h2>Découvrez notre nouvelle collection</h2>
+                <p>Chers clients,</p>
+                <p>Nous sommes ravis de vous présenter notre toute nouvelle collection printemps-été 2025. Inspirée par les couleurs vibrantes et les textures naturelles, cette collection est conçue pour apporter fraîcheur et élégance à votre quotidien.</p>
+                <a href="#" class="button">Découvrir la collection</a>
+            </div>
+
+            <!-- Séparateur -->
+            <hr>
+
+            <!-- Section avec colonnes -->
+            <div class="section">
+                <h3>Nos produits phares</h3>
+                <div class="columns">
+                    <div class="column">
+                        <img src="/api/placeholder/250/150" alt="Produit 1" style="width:100%">
+                        <h4>Produit Essentiel</h4>
+                        <p>Un indispensable de la saison avec des matériaux premium et un design intemporel.</p>
+                        <a href="#" class="button">Voir détails</a>
+                    </div>
+                    <div class="column">
+                        <img src="/api/placeholder/250/150" alt="Produit 2" style="width:100%">
+                        <h4>Nouveauté Exclusive</h4>
+                        <p>Une création unique en série limitée, parfaite pour se démarquer cet été.</p>
+                        <a href="#" class="button">Voir détails</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Message promotionnel -->
+            <div class="section" style="background-color:#f8f4e5; padding:15px; border-radius:5px;">
+                <h3>Offre spéciale</h3>
+                <p>Pour célébrer le lancement de cette collection, profitez de <strong>15% de réduction</strong> avec le code : <strong>ETE2025</strong></p>
+                <p>Offre valable jusqu'au 31 mai 2025.</p>
+                <a href="#" class="button">J'en profite maintenant</a>
+            </div>
+        </div>
+
+        <!-- Pied de page -->
+        <div class="footer">
+            <div class="social">
+                <a href="#" class="social-icon">Facebook</a> |
+                <a href="#" class="social-icon">Instagram</a> |
+                <a href="#" class="social-icon">Twitter</a>
+            </div>
+            <p>© 2025 Votre Entreprise. Tous droits réservés.</p>
+            <p>123 Rue de la Mode, 75001 Paris, France</p>
+            <p><a href="#" style="color:#ffffff;">Se désabonner</a> | <a href="#" style="color:#ffffff;">Politique de confidentialité</a></p>
+        </div>
+    </div>
+</body>
+</html>
